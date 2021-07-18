@@ -22,6 +22,11 @@ type Author struct {
 	firstname string `json:"firstname"`
 	lastname  string `json:"lastname"`
 }
+type search struct{
+	ref string `json:"ref"`
+	keyword string `json:"keyword"`
+	return_value string `json:"return_val"`
+}
 
 var books []Book
 
