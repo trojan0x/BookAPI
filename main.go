@@ -7,8 +7,9 @@ import (
 	"math/rand"
 	"net/http"
 	"strconv"
-
-	"github.com/gorilla/mux"
+	"io/ioutil"
+        "time"
+        "github.com/gorilla/mux"
 )
 
 type Book struct {
